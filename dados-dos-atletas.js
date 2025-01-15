@@ -18,6 +18,8 @@ class Atleta {
         }
         else if (this.idade >= 16 && this.idade <= 30){
             return  "Adulto"
+    }else{
+        return "Sem Categoria"
     }
 }
     calculaIMC(){
