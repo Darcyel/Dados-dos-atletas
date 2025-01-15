@@ -1,10 +1,8 @@
 Resumo do projeto:
-criar uma aplicação capaz de receber informações de um atleta, bem como calcular parâmentros e exibi-los para o usuário.
+Criar uma aplicação capaz de receber informações de um atleta, bem como calcular parâmetros e exibi-los para o usuário.
 
 introdução:
-Os organizadores da competição realizada durante o projeto anterior gostaram muito da sua solução proposta e do seu perfil de desenvolvimento. 
-Com isso, eles resolveram fazer uma nova encomenda utilizando a linguagem JavaScript, onde você deverá criar um software capaz de receber informações dos atletas e exibir a categoria, 
-IMC, média calculada e demais informações capturadas.
+Os organizadores da competição realizada durante o projeto anterior gostaram muito da sua solução proposta e do seu perfil de desenvolvimento. Com isso, eles resolveram fazer uma nova encomenda utilizando a linguagem JavaScript, onde você deverá criar um software capaz de receber informações dos atletas e exibir a categoria, IMC, média calculada e demais informações capturadas.
 
 Especificações:
 Você deverá criar uma classe Atleta para concentrar os atributos e métodos dos atletas.
@@ -16,7 +14,6 @@ altura
 notas
 
 A classe deverá possuir os seguintes métodos:
-
 calculaCategoria(), para calcular a categoria do atleta;
 calculaIMC(), para calcular o IMC do atleta;
 calculaMediaValida(), para calcular a média válida do atleta.
@@ -28,6 +25,7 @@ obtemCategoria(), que retorna a categoria do atleta
 obtemIMC(), que retorna o IMC do atleta
 obtemMediaValida(), que retorna a média válida do atleta
 
+
 Utilize as seguintes regras:
 
 1. Para calcular a categoria
@@ -37,8 +35,5 @@ Intermediário: 14 e 15 anos
 Adulto: 16 a 30 anos
 Sem categoria: demais idades
 
-3. Para calcular o IMC
+2. Para calcular o IMC
 Fórmula: imc = peso / (altura x altura)
-
-3. Para calcular a média válida
-Método: Utilize o metodologia abordada no Projeto de Certificação 1.
